@@ -1,0 +1,93 @@
+{
+  "documents": 101,
+  "summarized": 101,
+  "runs_by_job": [
+    {
+      "_id": "22767496",
+      "books": 1
+    },
+    {
+      "_id": "22767547",
+      "books": 6
+    },
+    {
+      "_id": "22767695",
+      "books": 1
+    },
+    {
+      "_id": "22767736",
+      "books": 94
+    }
+  ],
+  "genres": [
+    {
+      "_id": "historical fiction",
+      "books": 28
+    },
+    {
+      "_id": "adventure",
+      "books": 18
+    },
+    {
+      "_id": "mystery",
+      "books": 17
+    },
+    {
+      "_id": "children's story",
+      "books": 12
+    },
+    {
+      "_id": "drama",
+      "books": 9
+    },
+    {
+      "_id": "romance",
+      "books": 7
+    },
+    {
+      "_id": "science fiction",
+      "books": 6
+    },
+    {
+      "_id": "horror",
+      "books": 2
+    },
+    {
+      "_id": "unknown",
+      "books": 1
+    },
+    {
+      "_id": "satire",
+      "books": 1
+    }
+  ],
+  "last_summarized": [
+    {
+      "_id": "pg95.txt",
+      "author": "Anthony Hope",
+      "title": "The prisoner of Zenda",
+      "llm_analysis": {
+        "summary": "Rudolf Rassendyll, pretending to be King Rudolf the Fifth of Ruritania, embarks on a dangerous mission to retrieve the King from Duke Michael's custody. Along the way, he encounters various challenges and allies, including a mysterious woman named Antoinette de Mauban.",
+        "genre": "historical fiction"
+      }
+    },
+    {
+      "_id": "pg98.txt",
+      "author": "Charles Dickens",
+      "title": "A Tale of Two Cities",
+      "llm_analysis": {
+        "summary": "Jerry Cruncher, a young messenger at Tellson's Bank, meets Mr. Jarvis Lorry, a lawyer, on a ferry ride. Lorry tells Jerry about a package for him, leading to a journey to Paris.",
+        "genre": "mystery"
+      }
+    },
+    {
+      "_id": "pg963.txt",
+      "author": "Charles Dickens",
+      "title": "Little Dorrit",
+      "llm_analysis": {
+        "summary": "Mr Arthur Clennam arrives in London from Marseilles, where he meets his estranged mother and learns about her financial troubles. He decides to stay with her, despite his mother's wishes to avoid business.",
+        "genre": "historical fiction"
+      }
+    }
+  ]
+}

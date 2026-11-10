@@ -1,0 +1,5 @@
+INFO Task 1: /sfs/weka/scratch/yff8km/books/pg11.txt
+INFO Running Qwen/Qwen2.5-1.5B-Instruct on cuda
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  11%|█         | 38/338 [00:00<00:00, 371.16it/s]Loading weights:  35%|███▌      | 119/338 [00:00<00:00, 616.30it/s]Loading weights:  55%|█████▍    | 185/338 [00:00<00:00, 627.65it/s]Loading weights:  73%|███████▎  | 248/338 [00:00<00:00, 546.40it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 652.79it/s]
+INFO pg11.txt: adventure, 6.1 s
+Summarized pg11.txt in 6.4 s on udc-an40-13
