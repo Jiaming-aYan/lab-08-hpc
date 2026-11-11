@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-"""Summarize one book and add its analysis to gutenberg.books.
-
-Usage: summarize.py BOOK_LIST TASK_ID
-"""
 
 import logging
 import os
