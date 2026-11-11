@@ -12,7 +12,7 @@ Redirect the command's output to `results/job-history.txt` and include the file 
 
 **Your answer:** Provide the entire command you used, including all CLI options.
 
-I used `sacct -S 2026-11-04 -X --format=JobID,JobName,NodeList,Partition,Account,User,State,Start,Elapsed > results/job-history.txt`. The file shows all my jobs, including the ones that did not finish.
+I ran `sacct -S 2026-11-04 -X --format=JobID,JobName,NodeList,Partition,Account,User,State,Start,Elapsed > results/job-history.txt`. It also includes jobs that failed or were canceled.
 
 ## 2. Slurm: did every array task run at the same time?
 
@@ -24,7 +24,7 @@ You submitted your entire job array with one `sbatch` command, but Slurm schedul
 
 **Your answer:** Did all tasks in the array start at the same time? Was the elapsed time identical for every task? Explain why or why not.
 
-No. In my last array, some tasks started at 12:38:48 and the last ones started at 12:55:20. They took 16–25 seconds each because Slurm waited for free GPUs, and some books took a little longer to process.
+No. The first tasks started at 12:38:48, but the last ones started at 12:55:20. They took 16–25 seconds each. Slurm started them as GPUs became free, and some books took longer than others.
 
 ## 3. Slurm: did my job use what it asked for?
 
@@ -36,4 +36,4 @@ Suppose your next job array has 1,000 books instead of 101. Before you submit it
 
 **Your answer:** How much memory and time did the task use, compared with what your script asked for? What would you change in your script, and why?
 
-Task `22767736_1` used 4.34 GB of the 16 GB I asked for and finished in 19 seconds instead of five minutes. Next time I would try 8 GB and two minutes, so I do not ask for much more than I need.
+Task `22767736_1` used 4.34 GB out of the requested 16 GB and finished in 19 seconds, well under the five-minute limit. For a similar run, I would try 8 GB and two minutes per task, then check the results to make sure that is enough.
